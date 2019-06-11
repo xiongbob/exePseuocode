@@ -1,0 +1,48 @@
+1. Find the average score
+A program is needed to prompt the user operator for ten exam scores, calculate the average score and display the result to the screen. 
+The average score is calculated as the sum of the scores divided by the number of scores.
+
+Answer 1:
+Declare exam_num as numbers of exam and set up to zero first time
+Declare exam_score as score for each exam
+Declare sum_score as the sum of exam scores
+Declare avg_score  as the average of scores
+Set exam_num to zero
+DOWHILE exam_num < 11
+    Read exam_score
+	sum_score += exam_score 
+    add 1 to exam_num
+	
+ENDDO
+avg_score = sum_score / exam_num 
+Print avg_score to report
+
+
+Answer 2:
+Set total to zero
+Set grade counter to one
+While grade counter is less than or equal to ten
+Input the next grade
+Add the grade into the total
+End While
+Set the class average to the total divided by ten
+Print the class average.
+
+
+
+2. How much water runs off the roof
+How much water runs off a roof in a rain storm?
+
+To calculate the runoff from any given rainfall: Take the dimensions of the footprint of the roof and convert them to inches. 
+(So, a 50' x 20' roof is 600" x 240"). Multiply the roof dimensions by the number of inches of rainfall. In this example, 600" x 240" x 1" = 144,000 cubic inches of water. 
+Divide that result by 231 to get the number of gallons (because 1 gallon = 231 cubic inches). (144,000/231 = 623.38).
+
+Write the pseudocode for the above problem. If you use the numbers provided in the example then the correct pseudocode will calculate the same result.
+
+Answer:
+Declare rain_storm_rate as rain storm rate
+Declare rain_storm_weight_water as the total water weight in gallons 
+Declare gallons of water on the roof per one inch thick 
+Prompt user for rain_storm_rate (inch / hour)
+Calculate rain_storm_weight_water = rain_storm_rate * 623.38  
+Display rain_storm_weight_water
